@@ -1,4 +1,4 @@
-# Conexão PDO com o banco
+# Conexão PDO com o banco (GUSTAVO)
 <?php
 $host = 'localhost';
 $dbname = 'loja_carros';

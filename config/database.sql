@@ -1,4 +1,4 @@
-# Script SQL das tabelas
+# Script SQL das tabelas GUSTAVO 
 
 CREATE DATABASE IF NOT EXISTS loja_carros;
 USE loja_carros;
