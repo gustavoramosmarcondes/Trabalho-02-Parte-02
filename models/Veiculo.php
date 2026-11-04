@@ -1,0 +1,1 @@
+# Lógica do CRUD (SELECT, INSERT, UPDATE, DELETE)

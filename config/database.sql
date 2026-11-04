@@ -1,0 +1,13 @@
+# Script SQL das tabelas
+
+CREATE DATABASE IF NOT EXISTS loja_carros;
+USE loja_carros;
+
+CREATE TABLE IF NOT EXISTS veiculos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    marca VARCHAR(50) NOT NULL,
+    modelo VARCHAR(50) NOT NULL,
+    ano INT NOT NULL,
+    preco DECIMAL(10,2) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
