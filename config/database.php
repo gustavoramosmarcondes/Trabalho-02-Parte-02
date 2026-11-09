@@ -1,5 +1,20 @@
-# Conexão PDO com o banco (GUSTAVO)
 <?php
+// Conexão PDO com o banco (GUSTAVO)
+/*
+Curso: Engenharia de Software
+Disciplina: Linguagem e Tecnicas de Programacao
+Professor: Flores
+Turma: ESOFT-2
+Componentes:
+          260081732 - Alan Cristian dos Santos Costa
+          260071312 - Gabriel Felipe Albano Grendel
+          260140792 - Gustavo Ramos Marcondes
+          260052892 - Marcio Jose Aguiar Filho
+          260103602 - Victor Asaf Antunes dos Santos
+Data: 03 de Novembro de 2026
+Descritivo: Sistema CRUD em PHP com MySQL - Módulo Conexao com o Banco de Dados
+*/
+
 $host = 'localhost';
 $dbname = 'loja_carros';
 $username = 'root';
@@ -13,5 +28,3 @@ try {
     echo "Erro na conexão com o banco de dados: " . $e->getMessage();
     exit;
 }
-
-?>s
