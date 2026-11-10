@@ -14,3 +14,26 @@ Componentes:
 Data: 03 de Novembro de 2026
 Descritivo: Sistema CRUD em PHP com MySQL - Módulo Controller de Veiculos
 */
+require_once __DIR__ . '/../models/Veiculo.php';
+
+class VeiculoController{
+    private $conn;
+    private $veiculo;
+
+    public function __construct($db){
+        $this->conn = $db;
+        $this->veiculo = new VeiculoModel($this->conn);
+    }
+    function create($marca, $modelo, $ano, $preco)
+{
+    $this->veiculo->marca = $marca;
+    $this->veiculo->modelo = $modelo;
+    $this->veiculo->ano = $ano;
+    $this->veiculo->preco = $preco;
+
+    return $this->veiculo->create();
+}
+}
+
+
+

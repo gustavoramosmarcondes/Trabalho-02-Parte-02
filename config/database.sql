@@ -1,4 +1,3 @@
-# Script SQL das tabelas GUSTAVO
 /*
 Curso: Engenharia de Software
 Disciplina: Linguagem e Tecnicas de Programacao

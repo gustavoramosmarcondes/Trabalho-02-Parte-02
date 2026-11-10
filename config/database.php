@@ -1,5 +1,5 @@
 <?php
-// Conexão PDO com o banco (GUSTAVO)
+// Conexão PDO com o banco
 /*
 Curso: Engenharia de Software
 Disciplina: Linguagem e Tecnicas de Programacao
